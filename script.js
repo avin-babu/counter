@@ -53,8 +53,8 @@ function setCounter(){
 }
 
 replayBttn.addEventListener('click',function(){
-    hour.value = '00';
-    minute.value = '00';
-    second.value = '00'; 
+    hour.value = '';
+    minute.value = '';
+    second.value = ''; 
 })
 setCounter();
